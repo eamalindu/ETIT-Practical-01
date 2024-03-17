@@ -10,6 +10,7 @@ public class RoomController {
 
     @PostMapping
     public void create(){
+        System.out.println("Room Service");
 
     }
 }
