@@ -17,7 +17,9 @@ public class RoomController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void create(@RequestBody RoomRequest roomRequest){
-        System.out.println("Room Service");
-        System.out.println(roomRequest);
+//        System.out.println("Room Service");
+//        System.out.println(roomRequest);
+
+        roomService.create(roomRequest);
     }
 }
