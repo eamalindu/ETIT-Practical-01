@@ -3,7 +3,6 @@ package com.hotel.roomservice.service;
 import com.hotel.roomservice.dto.RoomRequest;
 import com.hotel.roomservice.model.Room;
 import com.hotel.roomservice.repository.RoomRepository;
-import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
