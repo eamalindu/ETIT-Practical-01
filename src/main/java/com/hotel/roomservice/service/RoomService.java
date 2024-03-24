@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class RoomService {
 
-    public void create(RoomRequest){
+    public void create(RoomRequest roomRequest){
 
     }
 }
