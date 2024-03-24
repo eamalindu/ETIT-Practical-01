@@ -8,5 +8,6 @@ public class RoomService {
 
     public void create(RoomRequest roomRequest){
 
+        System.out.println("Room Object from Service "+roomRequest);
     }
 }
