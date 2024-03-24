@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class RoomController {
 
-    private final RoomService  roomService;
+    private final RoomService roomService;
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
