@@ -1,10 +1,13 @@
 package com.hotel.roomservice.controller;
 
 import com.hotel.roomservice.dto.RoomRequest;
+import com.hotel.roomservice.model.Room;
 import com.hotel.roomservice.service.RoomService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/rooms")
@@ -22,5 +25,6 @@ public class RoomController {
         roomService.create(roomRequest);
 
     }
+
 
 }
